@@ -1,20 +1,19 @@
 "use client"
 
-
 import DepSvg from "./depsvg";
 import GitHomePage from "./git-home-page";
 import GitHomePageLinked from "./git-home-page-linked";
 
 import FpageText from "./fpage-text";
 import DepSvgSmall from "./depsvg-small";
-import GitHomePageSmall from "./git-home-page-small";
 import { useEffect , useState } from "react";
 import { Fragment } from "react";
 
-
 const Fpage = () => {
 
-    const [width, setWidth] = useState(window.innerWidth);
+
+
+    const [width, setWidth] = useState(0);
     const breakpoint = 1700;
   
     useEffect(() => {
@@ -22,10 +21,10 @@ const Fpage = () => {
       const handleWindowResize = () => setWidth(window.innerWidth)
       window.addEventListener("resize", handleWindowResize);
   
-      
+
+
       return () => window.removeEventListener("resize", handleWindowResize);
     }, []);
-
 
 
     return ( 

@@ -1,7 +1,5 @@
 
-import SVGComponent from "@/components/Svg-comp";
-import Title from "@/components/title";
-import Line from "@/components/line";
+
 import Fpage from "@/components/f-page";
 import SecondPage from "@/components/SecondPage";
 import ProjectsPage from "@/components/Project-page";
