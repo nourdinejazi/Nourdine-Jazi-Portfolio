@@ -23,12 +23,9 @@ export default class SimpleSlider extends Component {
       return (
             <div className="  w-full h-full  flex flex-col   items-center justify-center    ">
               <div className=" w-[95%]  text-center   ">
-              <div className="">
-                <p> VISIT LINK :  <Link className="text-bl   underline" href="https://clothify-store.vercel.app/" target="_"  >clothify-store.app</Link>  </p>
-              </div>
-                <Slider {...settings} className=" items-center justify-center mb-16">
-                  <div className="    ">
-                  <Image src={"/public/Create Next App.png"} width={1000} className="mx-auto   sm:mt-52 mt-32" height={500} alt="image"></Image>
+                <Slider {...settings} className=" sm:min-h-screen flex items-center justify-center  ">
+                  <div className=" sm:hidden    ">
+                    <Image src={"/public/Create Next App.png"} width={1000} className="mx-auto sm:hidden border sm:mt-52 mt-32" height={100} alt="image"></Image>
                   </div>
 
                   <div className=" w-full h-full">

@@ -12,9 +12,9 @@ const Projects = () => {
     return ( 
         <div className="w-full bg-[#13111C] min-h-screen flex flex-col items-center justify-start gap-20 text-white ">
             <ProjNav />
-            <div className=" h-16 flex items-center justify-start gap-5 w-[70%] ">
+            <div className=" h-16 flex items-center justify-start gap-5 w-[70%] sm:w-[100%] p-2 ">
                  <Link  href={"https://github.com/nourdinejazi"} target="_blanc"><Image src={"/github-mark.svg"} className="" width={50} height={50} alt="" /></Link>
-                <span className="text-xl font-semibold">github.com/nourdinejazi</span>
+                <span className="text-xl font-semibold  sm:w-full">github.com/nourdinejazi</span>
             </div>
             <div className=" h-full  flex items-start w-[70%] ">
                 <div onClick={()=> router.push('/projects/clothify')}>

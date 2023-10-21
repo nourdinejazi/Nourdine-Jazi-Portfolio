@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Nav = () => {
     return ( 
-        <div className=" h-20 z-50  flex justify-around items-start text-neutral-400 text-sm font-semibold pr-8 pt-8 w-[80%] ">
+        <div className=" h-20 z-50  flex justify-around items-start text-neutral-400 text-sm font-semibold pr-8  sm:w-full pt-8 w-[80%] ">
 
             {/* <Image src={"/logo.svg"} width={70} className="ml-32" height={70} alt="" /> */}
 

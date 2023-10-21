@@ -52,7 +52,7 @@ const ProjectsPage = () => {
                 With a strong foundation in these technologies, I deliver scalable, high-performance web solutions that exceed client expectations.            </p>
         </motion.div>
         <div className="ld:grid lg:grid-cols-3  md:grid md:grid-cols-3 sm:grid sm:grid-cols-1  sm:w-full  p-8  m-auto gap-10 mb-32">
-            <Card repoLink="https://github.com/nourdinejazi/clothify-store" shadow="greenCard" titleColor="text-[#95D0B4]" color="green-400" title="Clothify" paragraph="Clothify, sophisticated commercial website  crafted mainly using Next.js..." icon="svgexport-13.svg"  boxs="svgexport-12.svg"></Card>
+            <Card className="bg-[#181622]" repoLink="https://github.com/nourdinejazi/clothify-store" shadow="greenCard" titleColor="text-[#95D0B4]" color="green-400" title="Clothify" paragraph="Clothify, sophisticated commercial website  crafted mainly using Next.js..." icon="svgexport-13.svg"  boxs="svgexport-12.svg"></Card>
             <div  className="w-52 h-full relative sm:hidden  row-span-2  flex  gap-7 items-center justify-center m-auto">
                 <div   className="green-track w-4  h-[140%] sm:hidden  " ></div>
                 <div   className="green-track w-4  h-[140%]sm:hidden  " ></div>
@@ -80,9 +80,9 @@ const ProjectsPage = () => {
                     style={{position : `absolute` , top : `0`, left: `71%`, transform: `translateX(-50%) translateY(${translationY}px)   translateZ(0px)`}}
                 ></Image>           
             </div>
-            <Card repoLink="https://github.com/nourdinejazi/espace-bakhta" shadow="greenCard" titleColor="text-[#95D0B4]"  color="green-400" title="Espace Bakhta" paragraph="Website for a local  event venue with reservation form handled in the admin interface" icon="svgexport-13.svg" boxs="svgexport-12.svg"></Card>
-            <Card repoLink="https://github.com/nourdinejazi/clothify-admin" shadow="greenCard"titleColor="text-[#95D0B4]"  color="green-400"title="Clothify Dashboard" paragraph="Meticulously crafted for seamless management of your online clothing store..." icon="svgexport-13.svg" boxs="svgexport-12.svg"></Card>
-            <Card shadow="greenCard" titleColor="text-[#95D0B4]" color="green-400" title="Bakhta Manager" paragraph="A management interface the event venue Espace Bakhta..." icon="svgexport-13.svg" boxs="svgexport-12.svg"></Card>
+            <Card className="bg-[#181622]" repoLink="https://github.com/nourdinejazi/espace-bakhta" shadow="greenCard" titleColor="text-[#95D0B4]"  color="green-400" title="Espace Bakhta" paragraph="Website for a local  event venue with reservation form handled in the admin interface" icon="svgexport-13.svg" boxs="svgexport-12.svg"></Card>
+            <Card className="bg-[#181622]" repoLink="https://github.com/nourdinejazi/clothify-admin" shadow="greenCard"titleColor="text-[#95D0B4]"  color="green-400"title="Clothify Dashboard" paragraph="Meticulously crafted for seamless management of your online clothing store..." icon="svgexport-13.svg" boxs="svgexport-12.svg"></Card>
+            <Card className="bg-[#181622]"shadow="greenCard" titleColor="text-[#95D0B4]" color="green-400" title="Bakhta Manager" paragraph="A management interface the event venue Espace Bakhta..." icon="svgexport-13.svg" boxs="svgexport-12.svg"></Card>
         </div>
             
 

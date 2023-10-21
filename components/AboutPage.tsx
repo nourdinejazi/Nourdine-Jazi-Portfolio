@@ -13,7 +13,7 @@ const AboutPage = () => {
                 I specialize   in front-end by craft  engaging user interfaces that captivate and connect. Outside of work, i have a strong passion for fitness and a penchant for occasional adventures. When I'm not immersed in code, you'll often find me at the gym, lifting weights, or out in nature, exploring new places.
                 </p>
             </div>
-            <div className=" relative  m-auto  ">
+            <div className=" relative  m-auto pb-16 ">
                 <Image src={'/svgexport-21.svg'}  width={700} height={700} alt="img"  ></Image>
             </div>
         

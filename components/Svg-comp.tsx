@@ -32,14 +32,14 @@ const SVGComponent = () => {
 
 
     return(
-  <div className="w-full  z-10  flex  items-center justify-center   overflow-hidden ">
+  <div className="w-full  z-10 sm:hidden flex  items-center justify-center   overflow-hidden ">
   <svg
     width={1728}
     height={994}
     viewBox="0 0 1728 994"
 
     fill="none"
-    className=" origin-bottom w-[70%]  sm:w-full  "
+    className=" origin-bottom w-[70%]   sm:w-full  "
     opacity="0.6"
     style={{
         // ${rotate}

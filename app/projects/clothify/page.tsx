@@ -55,7 +55,7 @@ return (
                     icon="/green-tick.svg"
                     />
             </motion.div>   
-        <div className=" p-3 flex items-start gap-3 justify-start absolute bottom-10  left-10 z-20 w-64 h-20 ring-1 ring-neutral-800 rounded-lg shadow-md bg-[#181622] text-white ">
+        <div className=" sm:hidden p-3 flex items-start gap-3 justify-start absolute bottom-10  left-10 z-20 w-64 h-20 ring-1 ring-neutral-800 rounded-lg shadow-md bg-[#181622] text-white ">
             <Image src={"/cmd.svg"} width={22} height={22} alt=""></Image>
             <span className="text-white ">Personal Project</span>
         </div>

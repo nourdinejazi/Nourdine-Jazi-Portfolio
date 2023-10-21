@@ -8,7 +8,7 @@ const ProjNav = () => {
     return ( 
         <div className=" h-20   flex justify-between items-start text-neutral-400 font-medium text-sm pr-8 pt-8  w-full   ">
 
-            <Image src={"/logo.svg"} width={70} className=" mx-8 " height={70} alt="" />
+            <Link href={"/"}><Image src={"/logo.svg"} width={70} className=" mx-8 " height={70} alt="" /></Link>
 
             <div className="flex gap-5   ">
                 <Link
