@@ -7,7 +7,7 @@ import Card from "@/components/card";
 import ProjCard from "../components/proj-card";
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
-
+import Link from "next/link";
 const Clothify = () => {
 
 return (
@@ -15,7 +15,7 @@ return (
 
     <div className="h-[70px]  relative px-4 w-full  flex justify-start gap-5 items-center shasow-xl border-b border-gray-800   z-10 bg-[#13111C]">
         <span className="absolute sm:hidden top-5  left-[50%] text-neutral-400 flex gap-2 items-center justify-center">click to drag <ArrowDown size={20} /> </span>
-        <Image src="/logo.svg" height={40} width={40} alt=""></Image>
+        <Link href="/"><Image src="/logo.svg" height={40} width={40} alt=""></Image></Link>
         <div className="flex items-center justify-center gap-5   text-white">
             <span className="text-sm">
                 /

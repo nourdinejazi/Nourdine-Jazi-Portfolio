@@ -28,7 +28,7 @@ const Fpage = () => {
 
 
     return ( 
-    <div className="fpage  z-10   w-full h-screen ">
+    <div className="fpage  z-10   w-full  sm:h-[70vh] h-screen ">
         <FpageText />
         {
             width>breakpoint ?

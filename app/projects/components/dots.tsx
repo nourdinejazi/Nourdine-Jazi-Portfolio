@@ -2,7 +2,7 @@ import React from 'react';
 
 const BackgroundSVG = () => (
   <svg
-    className=" absolute top-0 left-0 w-[100%] h-[100%]  -z-10 bg-[#13111C]"
+    className=" absolute top-0 left-0 w-[100%] min-h-[100%]  -z-10 bg-[#13111C]"
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     

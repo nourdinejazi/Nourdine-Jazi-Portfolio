@@ -22,14 +22,11 @@ const Projects = () => {
                         repoLink="https://github.com/nourdinejazi/clothify-store" 
                         shadow="" titleColor="text-[#FFFF]" 
                         color="" title="CLOTHIFY" 
-                        paragraph="Clothify, sophisticated commercial website  crafted mainly using Next.js..."
+                        paragraph="Clothify, sophisticated commercial website  using Next.js..."
                         icon="github-mark.svg"  boxs="boxproj.svg"
                         className="bg-[#211F2D] hover:bg-opacity-50"
                         />
                 </div>
-
-           
-
             </div>
 
         </div>
