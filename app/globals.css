@@ -115,7 +115,8 @@
 }
 .diagonal2::after{
     content  : '';
-    background: linear-gradient(90deg, #13111C 0%, #343334 200%);
+    background: linear-gradient(90deg, #13111C 0%, #474747 200%);
+
     position : absolute;
     inset: 0;
     z-index: -1;
@@ -133,14 +134,13 @@
 
 .diagonalAbout{
     position: relative;
-    background: linear-gradient(90deg, #13111C 0%, #343334 200%);
+    background: linear-gradient(90deg, #13111C 0%, #474747 200%);
    isolation: isolate;
    margin-top: -50px;
 }
 .diagonalAbout::after{
     content  : '';
     background-color:#13111C;
-   
     position : absolute;
     inset: 0;
     z-index: -1;

@@ -15,46 +15,26 @@ export default class SimpleSlider extends Component {
       const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1
       };
 
       return (
-            <div className="  w-full h-full  flex flex-col   items-center justify-center    ">
-              <div className=" w-[95%]  text-center   ">
-                <Slider {...settings} className=" sm:min-h-screen flex items-center justify-center  ">
-                  <div className="    ">
-                    <Image src={"/public/Create Next App.png"} width={1000} className="mx-auto   sm:mt-52 mt-32" height={100} alt="image"></Image>
-                  </div>
+            <div className="  w-full h-full     ">
+              <div className="   ">
+                <Slider  {...settings} className="  mx-auto max-w-[1000px] h-auto overflow-auto  ">
+                
+                <Image src={"/long_cap_clothify_big.png"} width={1000}  height={2000} quality={100}  className="  mx-auto mt-8"  alt="image"></Image>
+                
 
-                  <div className=" w-full h-full">
-                  <Image src={"/public/Create Next App (1).png"} width={200} className=" mx-auto mt-32 " height={100} alt="image"></Image>
-                  </div>
-
-                  <div>
-                  <Image src={"/public/Create Next App (2).png"} width={1000} className=" mx-auto sm:mt-52 mt-32  " height={100} alt="image"></Image>
-                  </div>
-
-                  <div>
-                  <Image src={"/public/Create Next App (3).png"} width={200} className=" mx-auto mt-32 " height={100} alt="image"></Image>
-                  </div>
-
-                  <div>
-                  <Image src={"/public/Create Next App (4).png"} width={1000} className=" mx-auto sm:mt-52  " height={100} alt="image"></Image>
-                  </div>
-                  <div>
-                  <Image src={"/public/Create Next App (8).png"} width={1000} className=" mx-auto sm:mt-52   " height={100} alt="image"></Image>
-                  </div>
-
-                  <div>
-                  <Image src={"/public/Create Next App (6).png"} width={200} className=" mx-auto mt-32 " height={100} alt="image"></Image>
-                  </div>
-                  
-                  <div>
-                  <Image src={"/public/Create Next App (7).png"} width={200} className=" mx-auto mt-32 " height={100} alt="image"></Image>
-                  </div>
-
+                <Image src={"/long_cap_collection_clothify.png"}   width={1000} height={2000} quality={100}  className="  mx-auto mt-8"  alt="image"></Image>
+             
+                <Image src={"/item_long_cap.png"}   width={1000} height={2000} quality={100}  className="  mx-auto mt-8"  alt="image"></Image>
+                
+                <Image src={"/filter_page_cap.png"}   width={1000} height={2000} quality={100}  className="  mx-auto mt-8"  alt="image"></Image>
+                
+                <Image src={"/cart_cap.png"}   width={1000} height={2000} quality={100}  className="  mx-auto mt-8"  alt="image"></Image>
 
                 </Slider>
               </div>  
