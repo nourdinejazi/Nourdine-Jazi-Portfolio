@@ -10,7 +10,7 @@ import Card from "@/components/card";
 const Projects = () => {
     const router = useRouter()
     return ( 
-        <div className="w-full bg-[#13111C]  min-h-screen flex flex-col items-center justify-center gap-10 text-white ">
+        <div className="w-full bg-[#13111C]  min-h-screen flex flex-col items-center justify-center sm:gap-5 gap-10 text-white ">
             <ProjNav />
             <div className=" h-16 flex items-center justify-start  gap-5 w-[70%] sm:w-[100%] p-2 ">
                  <Link  href={"https://github.com/nourdinejazi"} target="_blanc"><Image src={"/github-mark.svg"} className="" width={50} height={50} alt="" /></Link>

@@ -32,19 +32,19 @@ const SVGComponent = () => {
 
 
     return(
-  <div className="w-full  z-10 sm:hidden flex  items-center justify-center   overflow-hidden ">
   <svg
     width={1728}
     height={994}
     viewBox="0 0 1728 994"
-
+    // rotateX(50.4092deg)
+    // perspective(1200px) translateY(-79.876px) 
     fill="none"
-    className=" origin-bottom w-[70%]   sm:w-full  "
+    className=" sm:mx-auto   sm:m-0  md:mx-auto  w-[70%] h-1/4      "
     opacity="0.6"
     style={{
         // ${rotate}
       transform:
-        `perspective(1200px) translateY(-79.876px) scale(1.22029) rotateX(50.4092deg)`,
+        ` perspective(1200px) translateY(-5px) rotateX(50.4092deg)`,
     }}
 
   >
@@ -624,6 +624,5 @@ const SVGComponent = () => {
       </clipPath>
     </defs>
   </svg>
-  </div>
 )}
 export default SVGComponent;
