@@ -10,13 +10,13 @@ import Card from "@/components/card";
 const Projects = () => {
     const router = useRouter()
     return ( 
-        <div className="w-full bg-[#13111C] min-h-screen flex flex-col items-center justify-start gap-20 text-white ">
+        <div className="w-full bg-[#13111C]  min-h-screen flex flex-col items-center justify-center gap-10 text-white ">
             <ProjNav />
-            <div className=" h-16 flex items-center justify-start gap-5 w-[70%] sm:w-[100%] p-2 ">
+            <div className=" h-16 flex items-center justify-start  gap-5 w-[70%] sm:w-[100%] p-2 ">
                  <Link  href={"https://github.com/nourdinejazi"} target="_blanc"><Image src={"/github-mark.svg"} className="" width={50} height={50} alt="" /></Link>
                 <span className="text-xl font-semibold  sm:w-full">github.com/nourdinejazi</span>
             </div>
-            <div className="ld:grid lg:grid-cols-3  md:grid md:grid-cols-3 sm:grid sm:grid-cols-1   sm:w-full  p-10   m-auto gap-10  ">
+            <div className="ld:grid lg:grid-cols-3  md:grid md:grid-cols-3 sm:grid sm:grid-cols-1    sm:w-full  p-10   m-auto gap-10  ">
                 <div onClick={()=> router.push('/projects/clothify')}>
                 <Card 
                         repoLink="https://github.com/nourdinejazi/clothify-store" 
