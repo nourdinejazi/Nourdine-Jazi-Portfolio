@@ -25,7 +25,7 @@ export default class SimpleSlider extends Component {
             
 
               <div className="   ">
-                <Slider  {...settings} className="  mx-auto max-w-[1000px] h-auto overflow-auto lg:mb32  ">
+                <Slider  {...settings} className="  mx-auto max-w-[1000px] h-auto overflow-auto   ">
 
                 <Image src={long_cap_clothify_big}  width={1000}  height={2000} quality={100} placeholder="blur"  className="  mx-auto mt-8"  alt="image"></Image>
                 

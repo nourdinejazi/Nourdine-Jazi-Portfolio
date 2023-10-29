@@ -6,6 +6,8 @@ import ProjectsPage from "@/components/Project-page";
 import AboutPage from "@/components/AboutPage";
 import ContactPage from "@/components/contact-page";
 import Nav from "@/components/Nav";
+
+
 export default function Home () {
 return(
 
