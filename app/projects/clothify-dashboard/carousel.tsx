@@ -23,13 +23,17 @@ export default class SimpleSlider extends Component {
       return (
             <div className="  w-full h-full     ">
               <div className="   ">
-                <Slider  {...settings} className="  mx-auto max-w-[1000px] h-auto overflow-auto lg:mb32  ">
+                <Slider  {...settings} className="  mt-8 mx-auto max-w-[900px] h-[550px]  rounded-xl  overflow-auto    ">
                 
-                <Image src={edit_cap} width={1000} placeholder="blur" height={2000} quality={100}  className="  mx-auto mt-8"  alt="image"></Image>
-
-                <Image src={"/product_cap.png"} width={1000}  height={2000} quality={100}  className="  mx-auto mt-8"  alt="image"></Image>
-                
-                <Image src={"/admin_cap.png"} width={1000}  height={2000} quality={100}  className="  mx-auto mt-8"  alt="image"></Image>
+                <div className="h-[550px] overflow-auto ">
+                  <Image src={edit_cap} width={1000} placeholder="blur" height={2000} quality={100}  className="  mx-auto "  alt="image"></Image>
+                </div>
+                <div className="h-[550px] overflow-auto ">
+                  <Image src={"/product_cap.png"} width={1000}  height={2000} quality={100}  className="  mx-auto "  alt="image"></Image>
+                </div>
+                <div className="h-[550px] overflow-auto ">
+                  <Image src={"/admin_cap.png"} width={1000}  height={2000} quality={100}  className="  mx-auto "  alt="image"></Image>
+                </div>
 
 
                 </Slider>

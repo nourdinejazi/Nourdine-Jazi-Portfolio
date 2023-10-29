@@ -25,19 +25,27 @@ export default class SimpleSlider extends Component {
             
 
               <div className="   ">
-                <Slider  {...settings} className="  mx-auto max-w-[1000px] h-auto overflow-auto   ">
+                <Slider  {...settings} className=" mt-8 mx-auto max-w-[900px] h-[550px]  rounded-xl  overflow-auto    ">
 
-                <Image src={long_cap_clothify_big}  width={1000}  height={2000} quality={100} placeholder="blur"  className="  mx-auto mt-8"  alt="image"></Image>
+                <div className="h-[550px] overflow-auto ">
+                  <Image src={long_cap_clothify_big}  width={1000}  height={2000} quality={100} placeholder="blur"  className="  mx-auto "  alt="image"></Image>
+                </div>
                 
+                <div className="h-[550px] overflow-auto">
+                <Image src={"/long_cap_collection_clothify.png"}   width={1000} height={2000} quality={100}  className="  mx-auto "  alt="image"></Image>
+                </div>
 
-                <Image src={"/long_cap_collection_clothify.png"}   width={1000} height={2000} quality={100}  className="  mx-auto mt-8"  alt="image"></Image>
-             
-                <Image src={"/item_long_cap.png"}   width={1000} height={2000} quality={100}  className="  mx-auto mt-8"  alt="image"></Image>
-                
-                <Image src={"/filter_page_cap.png"}   width={1000} height={2000} quality={100}  className="  mx-auto mt-8"  alt="image"></Image>
-                
-                <Image src={"/cart_cap.png"}   width={1000} height={2000} quality={100}  className="  mx-auto mt-8"  alt="image"></Image>
+                <div className="h-[550px] overflow-auto">
+                <Image src={"/item_long_cap.png"}   width={1000} height={2000} quality={100}  className="  mx-auto "  alt="image"></Image>
+                </div>
 
+                <div className="h-[550px] overflow-auto">
+                <Image src={"/filter_page_cap.png"}   width={1000} height={2000} quality={100}  className="  mx-auto "  alt="image"></Image>
+                </div>
+
+                <div className="h-[550px] overflow-auto">
+                <Image src={"/cart_cap.png"}   width={1000} height={2000} quality={100}  className="  mx-auto "  alt="image"></Image>
+                </div>
                 </Slider>
               </div>  
         </div> 

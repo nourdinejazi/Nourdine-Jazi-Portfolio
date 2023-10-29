@@ -23,12 +23,10 @@ export default class SimpleSlider extends Component {
       return (
             <div className="  w-full h-full     ">
               <div className="   ">
-                <Slider  {...settings} className="  mx-auto max-w-[1000px] h-auto overflow-auto lg:mb32  ">
+                <Slider  {...settings} className="   mt-8 mx-auto max-w-[900px] h-[550px]  rounded-xl  overflow-auto     ">
                 
-                <Image src={espace_home_cap} placeholder="blur" width={1000}  height={2000} quality={70}  className="  mx-auto mt-8"  alt="image"></Image>
+                <Image src={espace_home_cap} placeholder="blur" width={1000}  height={2000} quality={70}  className="  mx-auto "  alt="image"></Image>
                 
-                
-
                 </Slider>
               </div>  
         </div> 
