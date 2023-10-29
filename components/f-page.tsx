@@ -17,7 +17,7 @@ const Fpage = () => {
     const breakpoint = 1700;
   
     useEffect(() => {
-
+      setWidth(window.innerWidth)
       const handleWindowResize = () => setWidth(window.innerWidth)
       window.addEventListener("resize", handleWindowResize);
   
