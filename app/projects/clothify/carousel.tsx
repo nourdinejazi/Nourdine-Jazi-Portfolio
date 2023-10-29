@@ -13,37 +13,37 @@ import Link from "next/link";
 export default class SimpleSlider extends Component {
     render() {
       const settings = {
-        dots: true,
+        arrows : true,
+        dots: false,
         infinite: true,
-        speed: 300,
+        speed: 700,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
       };
 
       return (
-            <div className="  w-full h-full     ">
-            
-
+            <div className="scrollimg     ">
+          
               <div className="   ">
-                <Slider  {...settings} className=" mt-8 mx-auto max-w-[900px] h-[550px]  rounded-xl  overflow-auto    ">
+                <Slider  {...settings} className=" mt-8 mx-auto max-w-[900px]    ">
 
-                <div className="h-[550px] overflow-auto ">
+                <div className="h-[450px] overflow-auto rounded-xl ">
                   <Image src={long_cap_clothify_big}  width={1000}  height={2000} quality={100} placeholder="blur"  className="  mx-auto "  alt="image"></Image>
                 </div>
                 
-                <div className="h-[550px] overflow-auto">
+                <div className="h-[450px] overflow-auto rounded-xl">
                 <Image src={"/long_cap_collection_clothify.png"}   width={1000} height={2000} quality={100}  className="  mx-auto "  alt="image"></Image>
                 </div>
 
-                <div className="h-[550px] overflow-auto">
+                <div className="h-[450px] overflow-auto rounded-xl">
                 <Image src={"/item_long_cap.png"}   width={1000} height={2000} quality={100}  className="  mx-auto "  alt="image"></Image>
                 </div>
 
-                <div className="h-[550px] overflow-auto">
+                <div className="h-[450px] overflow-auto rounded-xl">
                 <Image src={"/filter_page_cap.png"}   width={1000} height={2000} quality={100}  className="  mx-auto "  alt="image"></Image>
                 </div>
 
-                <div className="h-[550px] overflow-auto">
+                <div className="h-[450px] overflow-auto rounded-xl">
                 <Image src={"/cart_cap.png"}   width={1000} height={2000} quality={100}  className="  mx-auto "  alt="image"></Image>
                 </div>
                 </Slider>
