@@ -60,7 +60,7 @@ const Blastpage = () => {
             </Link>
           </div>
         </div>
-        <div className="w-full h-[500px]"></div>
+        <div className="w-full sm:hidden h-[500px]"></div>
       </div>
     </div>
   );
