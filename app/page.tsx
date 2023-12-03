@@ -6,6 +6,7 @@ import ContactPage from "@/components/contact-page";
 import Nav from "@/components/Nav";
 import Blastpage from "@/components/blast-page";
 import LastPage from "@/components/last-page";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (

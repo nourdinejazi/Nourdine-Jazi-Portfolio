@@ -1,6 +1,7 @@
 import Link from "next/link";
 import WorkFrom from "./workform";
-
+import Footer from "./footer";
+import Image from "next/image";
 const Blastpage = () => {
   return (
     <div className="bag w-full lg:h-full sm:h-full md:h-full -mt-32 ">
@@ -60,7 +61,50 @@ const Blastpage = () => {
             </Link>
           </div>
         </div>
-        <div className="w-full sm:hidden h-[500px]"></div>
+        <div className=" relative w-full flex flex-col items-center justify-center h-[500px]">
+          <div className="grid grid-cols-4 sm:grid-cols-1 gap-8">
+            <div>
+              <Image
+                src={"/logo.svg"}
+                width={50}
+                className=" mx-8 "
+                height={70}
+                alt=""
+              ></Image>
+            </div>
+            <div>
+              <Link
+                href="/resume.pdf"
+                className=" text-[#878593] font-medium "
+                target="_blanc"
+              >
+                Resume
+              </Link>
+            </div>
+            <div>
+              <Link
+                href="https://www.github.com/nourdinejazi"
+                className=" text-[#878593] font-medium  "
+                target="_blanc"
+              >
+                Github
+              </Link>
+            </div>
+            <div>
+              <Link
+                href="https://www.linkedin.com/in/nourdine-jazi/"
+                className=" text-[#878593] font-medium  "
+                target="_blanc"
+              >
+                LinkedIn
+              </Link>
+            </div>
+          </div>
+          <span className=" text-[#878593] font-medium w-[80%] text-sm absolute bottom-10  ">
+            © {new Date().getFullYear()} Nourdine Jazi. Design inspired from
+            Railway.app
+          </span>
+        </div>
       </div>
     </div>
   );

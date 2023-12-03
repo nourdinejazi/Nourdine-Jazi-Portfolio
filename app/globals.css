@@ -219,10 +219,18 @@
   background-color: #13111c;
   isolation: isolate;
   margin-top: -40px;
+  z-index: 20;
 }
+
 .diagonal2::after {
   content: "";
-  background: linear-gradient(90deg, #13111c 0%, #474747 200%);
+  background: linear-gradient(
+      132.29deg,
+      rgba(132, 200, 168, 0.08) 17.64%,
+      rgba(114, 192, 156, 0) 66.58%
+    ),
+    hsl(250, 21%, 11%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 96%);
 
   position: absolute;
   inset: 0;
@@ -239,7 +247,8 @@
 
 .diagonalAbout {
   position: relative;
-  background: linear-gradient(90deg, #13111c 0%, #474747 200%);
+  background-color: black;
+  z-index: 10;
   isolation: isolate;
   margin-top: -50px;
 }
@@ -253,12 +262,44 @@
   margin-bottom: -100px;
 }
 
+.projectGrid1 {
+  background-image: linear-gradient(
+    141.64deg,
+    #26066b 3.52%,
+    #0e3551 66.02%,
+    #052847 88.03%
+  );
+}
+
+.projectGrid2 {
+  background-image: linear-gradient(
+    200.41deg,
+    rgba(99, 29, 62, 0.4) -5.53%,
+    rgba(35, 98, 111, 0.5) 97.77%
+  );
+}
+
+.projectGrid3 {
+  background-image: linear-gradient(110.1deg, rgba(46, 29, 99, 0.4), #3d0f34);
+}
+
+.projectGrid4 {
+  background-image: linear-gradient(
+    108.49deg,
+    rgba(3, 56, 99, 0.3),
+    rgba(20, 107, 77, 0.3)
+  );
+}
+
 .card {
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 27px;
+  border-color: #3b83f656;
 }
 
 .greenCard {
   box-shadow: rgba(66, 148, 110, 0.15) 0px 4px 27px;
+  border-color: #22c55e62;
+  /* border-color: rgba(160, 160, 255, 0.363); */
 }
 .blue-track {
   background: linear-gradient(
