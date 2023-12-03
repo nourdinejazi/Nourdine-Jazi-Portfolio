@@ -20,7 +20,7 @@ const ProjectsGrid = () => {
               and Tailwind CSS. Seamlessly connected to an intuitive admin
               interface
             </p>
-            <Link href="/projects/espace-bakhta">
+            <Link href="/projects/clothify">
               <span className="  text-[#853BCE] flex items-center justify-center text-base font-medium hover:bg-opacity-80 hover:underline ">
                 View Project <ArrowRight size={18} />
               </span>
@@ -74,7 +74,7 @@ const ProjectsGrid = () => {
                 className="rounded-xl"
               ></Image>
             </div>
-            <Link href="/projects/espace-bakhta">
+            <Link href="/projects">
               <span className="  text-[#853BCE] flex items-center justify-center text-base font-medium hover:bg-opacity-80 hover:underline ">
                 View Project <ArrowRight size={18} />
               </span>
@@ -90,7 +90,10 @@ const ProjectsGrid = () => {
               Utilized NextJS, ReactJS, and TailwindCSS to code a responsive and
               interactive website for my personal portfolio
             </p>
-            <Link href="/projects/espace-bakhta">
+            <Link
+              href="https://github.com/nourdinejazi/Nourdine-Jazi-Portfolio"
+              target="_blanc"
+            >
               <span className="  text-[#853BCE] flex items-center justify-center text-base font-medium hover:bg-opacity-80 hover:underline ">
                 View Project <ArrowRight size={18} />
               </span>
