@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Nourdine Jazi Portfolio
+Welcome to the repository of Nourdine Jazi's portfolio. This project showcases the personal portfolio website of Nourdine Jazi, highlighting his skills, projects, and achievements.
 
-## Getting Started
+Table of Contents
+Introduction
+Features
+Installation
+Usage
+Contributing
+License
+Introduction
+Nourdine Jazi Portfolio is a web-based portfolio that provides an overview of Nourdine Jazi's professional background, skills, and projects. It serves as a comprehensive representation of his work and serves as a means for potential employers or collaborators to learn more about him.
 
-First, run the development server:
+Features
+About Me: Learn about Nourdine's background, skills, and professional journey.
+Projects: Explore a collection of projects Nourdine has worked on, with detailed descriptions and links to the respective repositories or live demos.
+Contact: Reach out to Nourdine through the provided contact information or the contact form available on the portfolio.
+Installation
+To view Nourdine Jazi's portfolio, simply visit https://nourdinejazi.github.io/Nourdine-Jazi-Portfolio/ using your web browser.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+If you would like to run the portfolio locally, you can clone this repository to your machine using the following command:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+bash
+Copy code
+git clone https://github.com/nourdinejazi/Nourdine-Jazi-Portfolio.git
+Then, open the index.html file in your preferred web browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Usage
+Navigate through the different sections of the portfolio to learn more about Nourdine Jazi, explore his projects, and find ways to contact him.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Contributing
+If you would like to contribute to this portfolio or report issues, please feel free to submit a pull request or open an issue on the GitHub repository.
 
-## Learn More
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
