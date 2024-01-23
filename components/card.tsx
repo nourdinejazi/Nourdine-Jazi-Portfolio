@@ -11,9 +11,9 @@ interface CardProps {
   paragraph: string;
   icon: string;
   boxs: string;
-  color: string;
+  color?: string;
   titleColor: string;
-  shadow: string;
+  shadow?: string;
   repoLink?: string;
   className?: string;
 }

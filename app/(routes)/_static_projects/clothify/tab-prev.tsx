@@ -4,10 +4,13 @@ import Link from "next/link";
 import Image from "next/image";
 import long_cap_clothify_big from "/public/long_cap_clothify_big.png";
 import { ArrowDown, ArrowRight, Link2Icon } from "lucide-react";
+import { Project } from "@prisma/client";
 
-export const revalidate = 0;
+interface tabPrevProps {
+  project: Project | null;
+}
 
-const TabPrev = () => {
+const TabPrev = ({ project }: tabPrevProps) => {
   return (
     <Tabs defaultValue="Preview" className="w-full  h-full  px-4  ">
       <TabsList>

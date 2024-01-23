@@ -1,12 +1,16 @@
+import { User } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { LoginButton } from "./auth/login-button";
+import { currentUser } from "@/lib/auth";
+import { UserButton } from "./auth/user-button";
 
-const Nav = () => {
+const Nav = async () => {
+  const user = await currentUser();
+
   return (
-    <div className=" h-20 z-50  flex justify-around items-start text-neutral-400 text-sm font-semibold pr-8  sm:w-full pt-8 w-[80%] ">
-      {/* <Image src={"/logo.svg"} width={70} className="ml-32" height={70} alt="" /> */}
-
-      <div className="flex gap-5 ml-auto  ">
+    <div className=" h-20  z-50 flex justify-around items-start text-neutral-400 text-sm font-semibold pr-8  sm:w-full pt-8 w-[80%] ">
+      <div className="flex gap-5 ml-auto  h-full items-center justify-center ">
         <Link className="hover:text-white" href={"/projects"}>
           Projects
         </Link>
@@ -22,6 +26,15 @@ const Nav = () => {
             alt=""
           />
         </Link>
+        <div className="">
+          {user ? (
+            <UserButton />
+          ) : (
+            <LoginButton>
+              <User></User>
+            </LoginButton>
+          )}
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    transpilePackages: ['three'],
-}
+  transpilePackages: ["three"],
+  images: {
+    domains: ["res.cloudinary.com"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

@@ -5,7 +5,7 @@ const GitHomePageLinked = () => (
     height={411}
     viewBox="0 0 664 411"
     fill="none"
-    className="absolute top-[40%] left-[250px]   "
+    className="absolute top-[30%] left-[250px]   "
   >
     <path
       d="M264.597 305.986a3 3 0 0 1 3-3h129.764a3 3 0 0 1 3 3v88.236a3 3 0 0 1-3 3H267.597a3 3 0 0 1-3-3v-88.236Z"

@@ -1,13 +1,11 @@
 import * as React from "react";
 const DepSvg = () => (
-  
   <svg
     width={1016}
     height={839}
     viewBox="0 0 1016 839"
     fill="none"
-    className="bigDep z-50  absolute top-[15%] right-0 p-0 m-0 "
-
+    className="bigDep z-20 absolute top-[10%] right-0 p-0 m-0 "
   >
     <g clipPath="url(#clip0_1_2)">
       <mask
@@ -1388,6 +1386,5 @@ const DepSvg = () => (
       </clipPath>
     </defs>
   </svg>
-
 );
 export default DepSvg;

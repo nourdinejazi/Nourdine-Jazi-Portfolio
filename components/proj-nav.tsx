@@ -13,7 +13,6 @@ const ProjNav = () => {
           alt=""
         />
       </Link>
-
       <div className="flex gap-5   ">
         <Link className="hover:text-white" href={"/"}>
           Home

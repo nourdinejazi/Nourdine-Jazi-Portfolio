@@ -20,9 +20,9 @@ const ProjectsGrid = () => {
               and Tailwind CSS. Seamlessly connected to an intuitive admin
               interface
             </p>
-            <Link href="/projects/clothify">
+            <Link href="/projects">
               <span className="  text-[#853BCE] flex items-center justify-center text-base font-medium hover:bg-opacity-80 hover:underline ">
-                View Project <ArrowRight size={18} />
+                View Projects <ArrowRight size={18} />
               </span>
             </Link>
           </div>
@@ -52,9 +52,9 @@ const ProjectsGrid = () => {
                 className="rounded-xl"
               ></Image>
             </div>
-            <Link href="/projects/espace-bakhta">
+            <Link href="/projects">
               <span className="  text-[#853BCE] flex items-center justify-center text-base font-medium hover:bg-opacity-80 hover:underline ">
-                View Project <ArrowRight size={18} />
+                View Projects <ArrowRight size={18} />
               </span>
             </Link>
           </div>
@@ -76,7 +76,7 @@ const ProjectsGrid = () => {
             </div>
             <Link href="/projects">
               <span className="  text-[#853BCE] flex items-center justify-center text-base font-medium hover:bg-opacity-80 hover:underline ">
-                View Project <ArrowRight size={18} />
+                View Projects <ArrowRight size={18} />
               </span>
             </Link>
           </div>
@@ -95,7 +95,7 @@ const ProjectsGrid = () => {
               target="_blanc"
             >
               <span className="  text-[#853BCE] flex items-center justify-center text-base font-medium hover:bg-opacity-80 hover:underline ">
-                View Project <ArrowRight size={18} />
+                View Projects <ArrowRight size={18} />
               </span>
             </Link>
           </div>
