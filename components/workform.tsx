@@ -45,7 +45,7 @@ const WorkFrom = () => {
             <h1 className="lg:text-6xl md:text-3xl  sm:text-3xl text-white">Let's work together!</h1>
             <p className="text-lg sm:text-base  text-white">Like my work and want something similar for your company? Sure, let's get to business!</p>
         </div> */}
-      <div className="lg:w-[50%] lg:h-[50%] md:w-[60%] md:h-[60%] sm:w-[80%] sm:h-[100%]     ">
+      {/* <div className="lg:w-[50%] lg:h-[50%] md:w-[60%] md:h-[60%] sm:w-[80%] sm:h-[100%]     ">
         <form
           onSubmit={onSubmit}
           className="w-full  h-full   lg:grid lg:grid-cols-2 md:flex md:flex-col  sm:flex sm:flex-col   gap-10 "
@@ -97,7 +97,7 @@ const WorkFrom = () => {
             </button>
           </div>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };
