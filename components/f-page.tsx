@@ -24,16 +24,6 @@ const Fpage = () => {
   return (
     <div className="fpage  z-10 relative     w-full  sm:h-[70vh] h-screen ">
       <FpageText />
-      {width > breakpoint ? (
-        <Fragment>
-          <DepSvg />
-          <GitHomePageLinked />
-        </Fragment>
-      ) : (
-        <Fragment>
-          <DepSvgSmall />
-        </Fragment>
-      )}
 
       <GitHomePage />
     </div>
